@@ -1,0 +1,401 @@
+LEARNING PROBLEM: 'Iris-virginica'
+	WEIGHTS: < w0: 0.931, w1: 0.138, w2: 0.695, w3: 0.291, w4: 0.729, >
+	EPOCH #0, 68 errors:
+		d_0 = ([5.1, 3.5, 1.4, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_1 = ([4.9, 3.0, 1.4, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_2 = ([4.7, 3.2, 1.3, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_3 = ([4.6, 3.1, 1.5, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_4 = ([5.0, 3.6, 1.4, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_5 = ([5.4, 3.9, 1.7, 0.4], 'Iris-setosa'), t = -1, o = 1
+		d_6 = ([4.6, 3.4, 1.4, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_7 = ([5.0, 3.4, 1.5, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_8 = ([4.4, 2.9, 1.4, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_9 = ([4.9, 3.1, 1.5, 0.1], 'Iris-setosa'), t = -1, o = 1
+		d_10 = ([5.4, 3.7, 1.5, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_11 = ([4.8, 3.4, 1.6, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_12 = ([4.8, 3.0, 1.4, 0.1], 'Iris-setosa'), t = -1, o = 1
+		d_13 = ([4.3, 3.0, 1.1, 0.1], 'Iris-setosa'), t = -1, o = 1
+		d_14 = ([5.8, 4.0, 1.2, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_15 = ([5.7, 4.4, 1.5, 0.4], 'Iris-setosa'), t = -1, o = 1
+		d_16 = ([5.4, 3.9, 1.3, 0.4], 'Iris-setosa'), t = -1, o = 1
+		d_17 = ([5.1, 3.5, 1.4, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_18 = ([5.7, 3.8, 1.7, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_19 = ([5.1, 3.8, 1.5, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_20 = ([5.4, 3.4, 1.7, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_21 = ([5.1, 3.7, 1.5, 0.4], 'Iris-setosa'), t = -1, o = 1
+		d_22 = ([4.6, 3.6, 1.0, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_23 = ([5.1, 3.3, 1.7, 0.5], 'Iris-setosa'), t = -1, o = 1
+		d_24 = ([4.8, 3.4, 1.9, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_25 = ([5.0, 3.0, 1.6, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_26 = ([5.0, 3.4, 1.6, 0.4], 'Iris-setosa'), t = -1, o = 1
+		d_27 = ([5.2, 3.5, 1.5, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_28 = ([5.2, 3.4, 1.4, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_29 = ([4.7, 3.2, 1.6, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_30 = ([4.8, 3.1, 1.6, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_31 = ([5.4, 3.4, 1.5, 0.4], 'Iris-setosa'), t = -1, o = 1
+		d_32 = ([5.2, 4.1, 1.5, 0.1], 'Iris-setosa'), t = -1, o = 1
+		d_33 = ([5.5, 4.2, 1.4, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_34 = ([4.9, 3.1, 1.5, 0.1], 'Iris-setosa'), t = -1, o = 1
+		d_35 = ([5.0, 3.2, 1.2, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_36 = ([5.5, 3.5, 1.3, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_37 = ([4.9, 3.1, 1.5, 0.1], 'Iris-setosa'), t = -1, o = 1
+		d_38 = ([4.4, 3.0, 1.3, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_39 = ([5.1, 3.4, 1.5, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_40 = ([5.0, 3.5, 1.3, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_41 = ([4.5, 2.3, 1.3, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_42 = ([4.4, 3.2, 1.3, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_43 = ([5.0, 3.5, 1.6, 0.6], 'Iris-setosa'), t = -1, o = 1
+		d_44 = ([5.1, 3.8, 1.9, 0.4], 'Iris-setosa'), t = -1, o = 1
+		d_45 = ([4.8, 3.0, 1.4, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_46 = ([5.1, 3.8, 1.6, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_47 = ([4.6, 3.2, 1.4, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_48 = ([5.3, 3.7, 1.5, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_49 = ([5.0, 3.3, 1.4, 0.2], 'Iris-setosa'), t = -1, o = 1
+		d_50 = ([7.0, 3.2, 4.7, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_52 = ([6.9, 3.1, 4.9, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_54 = ([6.5, 2.8, 4.6, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_56 = ([6.3, 3.3, 4.7, 1.6], 'Iris-versicolor'), t = -1, o = 1
+		d_57 = ([4.9, 2.4, 3.3, 1.0], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_61 = ([5.9, 3.0, 4.2, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_64 = ([5.6, 2.9, 3.6, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.815, w1: -0.447, w2: 0.306, w3: 0.092, w4: 0.687, >
+	EPOCH #1, 12 errors:
+		d_5 = ([5.4, 3.9, 1.7, 0.4], 'Iris-setosa'), t = -1, o = 1
+		d_6 = ([4.6, 3.4, 1.4, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_43 = ([5.0, 3.5, 1.6, 0.6], 'Iris-setosa'), t = -1, o = 1
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.811, w1: -0.453, w2: 0.290, w3: 0.107, w4: 0.692, >
+	EPOCH #2, 12 errors:
+		d_6 = ([4.6, 3.4, 1.4, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_43 = ([5.0, 3.5, 1.6, 0.6], 'Iris-setosa'), t = -1, o = 1
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_56 = ([6.3, 3.3, 4.7, 1.6], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_122 = ([7.7, 2.8, 6.7, 2.0], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.807, w1: -0.460, w2: 0.276, w3: 0.119, w4: 0.694, >
+	EPOCH #3, 12 errors:
+		d_6 = ([4.6, 3.4, 1.4, 0.3], 'Iris-setosa'), t = -1, o = 1
+		d_43 = ([5.0, 3.5, 1.6, 0.6], 'Iris-setosa'), t = -1, o = 1
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_122 = ([7.7, 2.8, 6.7, 2.0], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.803, w1: -0.466, w2: 0.261, w3: 0.129, w4: 0.697, >
+	EPOCH #4, 12 errors:
+		d_43 = ([5.0, 3.5, 1.6, 0.6], 'Iris-setosa'), t = -1, o = 1
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.799, w1: -0.476, w2: 0.249, w3: 0.133, w4: 0.698, >
+	EPOCH #5, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.797, w1: -0.477, w2: 0.243, w3: 0.139, w4: 0.700, >
+	EPOCH #6, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_122 = ([7.7, 2.8, 6.7, 2.0], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.795, w1: -0.474, w2: 0.238, w3: 0.148, w4: 0.702, >
+	EPOCH #7, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.793, w1: -0.473, w2: 0.233, w3: 0.155, w4: 0.703, >
+	EPOCH #8, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_56 = ([6.3, 3.3, 4.7, 1.6], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.791, w1: -0.473, w2: 0.227, w3: 0.162, w4: 0.705, >
+	EPOCH #9, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_56 = ([6.3, 3.3, 4.7, 1.6], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.789, w1: -0.472, w2: 0.221, w3: 0.169, w4: 0.706, >
+	EPOCH #10, 10 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_56 = ([6.3, 3.3, 4.7, 1.6], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.785, w1: -0.485, w2: 0.210, w3: 0.165, w4: 0.703, >
+	EPOCH #11, 9 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.783, w1: -0.486, w2: 0.205, w3: 0.171, w4: 0.704, >
+	EPOCH #12, 9 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_122 = ([7.7, 2.8, 6.7, 2.0], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.781, w1: -0.483, w2: 0.201, w3: 0.179, w4: 0.706, >
+	EPOCH #13, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.779, w1: -0.482, w2: 0.195, w3: 0.186, w4: 0.708, >
+	EPOCH #14, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.777, w1: -0.480, w2: 0.191, w3: 0.194, w4: 0.709, >
+	EPOCH #15, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_56 = ([6.3, 3.3, 4.7, 1.6], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.775, w1: -0.479, w2: 0.185, w3: 0.202, w4: 0.710, >
+	EPOCH #16, 10 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_56 = ([6.3, 3.3, 4.7, 1.6], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.771, w1: -0.490, w2: 0.174, w3: 0.198, w4: 0.707, >
+	EPOCH #17, 9 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.769, w1: -0.489, w2: 0.170, w3: 0.204, w4: 0.709, >
+	EPOCH #18, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.767, w1: -0.487, w2: 0.165, w3: 0.211, w4: 0.710, >
+	EPOCH #19, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.765, w1: -0.485, w2: 0.160, w3: 0.219, w4: 0.711, >
+	EPOCH #20, 10 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_103 = ([6.3, 2.9, 5.6, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.761, w1: -0.497, w2: 0.149, w3: 0.216, w4: 0.709, >
+	EPOCH #21, 9 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.759, w1: -0.496, w2: 0.144, w3: 0.222, w4: 0.709, >
+	EPOCH #22, 9 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.757, w1: -0.495, w2: 0.139, w3: 0.227, w4: 0.710, >
+	EPOCH #23, 9 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+	WEIGHTS: < w0: 0.755, w1: -0.494, w2: 0.135, w3: 0.233, w4: 0.711, >
+	EPOCH #24, 11 errors:
+		d_51 = ([6.4, 3.2, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_53 = ([5.5, 2.3, 4.0, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_55 = ([5.7, 2.8, 4.5, 1.3], 'Iris-versicolor'), t = -1, o = 1
+		d_59 = ([5.2, 2.7, 3.9, 1.4], 'Iris-versicolor'), t = -1, o = 1
+		d_66 = ([5.6, 3.0, 4.5, 1.5], 'Iris-versicolor'), t = -1, o = 1
+		d_70 = ([5.9, 3.2, 4.8, 1.8], 'Iris-versicolor'), t = -1, o = 1
+		d_101 = ([5.8, 2.7, 5.1, 1.9], 'Iris-virginica'), t = 1, o = -1
+		d_102 = ([7.1, 3.0, 5.9, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_105 = ([7.6, 3.0, 6.6, 2.1], 'Iris-virginica'), t = 1, o = -1
+		d_107 = ([7.3, 2.9, 6.3, 1.8], 'Iris-virginica'), t = 1, o = -1
+		d_129 = ([7.2, 3.0, 5.8, 1.6], 'Iris-virginica'), t = 1, o = -1
+
+RESULTS FOR 'Iris-virginica'
+	epoch # = 24
+	# errors = 11
+	WEIGHTS: < w0: 0.753, w1: -0.492, w2: 0.130, w3: 0.240, w4: 0.712, >

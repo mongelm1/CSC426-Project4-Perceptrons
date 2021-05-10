@@ -1,0 +1,12 @@
+5.2 Write Up
+
+Task 3 Analysis:
+
+The graphs generated from task 3 appear to start and finish with 
+more errors per epoch than those in task 2. In task 1, each learning
+problem finished with less than 10 errors per epoch. However, in task 3 
+(except for Iris Setosa which still classifies all examples correctly)
+the Versicolor and Viriginica learning problems end with, on average,
+more errors per epoch and start with a much higher number of errors. 
+Versicolor and Viriginica started with about 100 errors on the first epoch
+for each learning problem of Task 3.

@@ -1,0 +1,10 @@
+5.1 Write Up
+
+Task 2 Question:
+Based on your results, are any of the LPs linearly separable? If so, which one?
+
+Of the three learning problems, only one (Iris Setosa) was able to be classified
+perfectly using the perceptron. The other flowers however were unable to remove all
+errors and stabilized their results after several epochs. This means that the target
+Iris Setosa is linearly separable, however the others are not because the perceptron
+is not able to capture them perfectly using a linear combination. 

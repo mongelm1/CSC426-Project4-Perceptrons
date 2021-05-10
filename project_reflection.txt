@@ -1,0 +1,25 @@
+(1) anything positive you enjoyed or learned from this assignment
+    - I enjoyed implementing this project, I created the perceptron class right 
+    after lecture finished because I was interested
+    - It was very satisfying to get the perceptron training rule running
+
+(2) anything negative you didn't like about this assignment
+    - None
+
+(3) any parts of this assignment you found easy
+    - I found it very straightforward to implement this project based on our class notes
+
+(4) any parts of this assignment you found challenging or couldn't get working correctly
+    - I did find some difficulty intially with the perceptron training rule algorithm
+    - At first I didn't understand how we would teach it to classify each flower differently,
+    but then I realized each flower had to be learned separately and the the algorithm could
+    only classify based on that one flower as 1 (the flower is the target) or -1 (the flower is
+    not the target)
+
+(5) how your team functioned, including details such as what each team member contributed, how the team communicated with each other, and how team software development & design was accomplished
+    - As I discussed in my email, I tried to get an early start on this project with my original group but
+    by the time they were available to work on it it was already mostly done being coded
+    - I split off to make my own submission
+
+(6) any other remarks you want to make
+    - None
