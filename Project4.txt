@@ -1,0 +1,78 @@
+CSC426-01
+Project 4
+Due: May 7, 2021
+
+Title: Perceptrons 
+
+Teams: Team Assignments have been emailed. 
+
+Introduction: In this project, you will get hands-on experience implementing a perceptron learner to classify iris flower species based on length and width of petals and sepals of specimens. You will also get hands-on experience investigating the impact on learning of: (1) the order in which training data is presented to the learner and (2) the initial model the learner uses. You will become familiar with and experiment with what is perhaps the best known data set in machine learning. You will also gain hands-on experience with creating deliverables containing source code, documentation, statistical results files, plots of results, and written reports with analysis of results. 
+
+Provided Information: Ronald Fisher's iris dataset has been a benchmark for machine learning and data analysis since it was first released in 1936. It contains 50 samples from each of three species of the iris flower: iris setosa, iris versicolor, and iris virginica. Each sample consists of four measurements: the length and width of the sepals and petals of the specimens, in centimeters. 
+
+Provided Data File: iris.data has the data for this project. 
+
+Tasks
+
+Task 1 (T1): Implement the perceptron learning algorithm so that it can be used on the iris data in the  programming language(s) of your choice from the following set: {Python, Java, C, C++}. There cannot be any software dependencies for your system that are not part of the standard installation on the TCNJ HPC system. Provide documentation and in particular, a README file explaining how to run the software from the command line. 
+
+Task 2 (T2): Run your perceptron algorithm to learn a model for the following three Learning Problems (LPs):
+
+LP 1: iris setosa (+1) versus not iris setosa (-1)
+LP 2: iris versicolor (+1) versus not iris versicolor (-1)
+LP 3: iris virginica (+1) versus not iris virginica (-1)
+
+For each of the three LPs, present the data to your algorithm in the same order as in the iris.data file and run until the # of errors on the training data is zero or until the # of errors on the training data is no longer decreasing. For each of the three LPs, initialize the weight vector to all zeroes. 
+
+For each LP, record the epoch # of learning, the # of errors on the training data for that epoch, and the current weight vector for each epoch of learning. An epoch of learning is one complete pass through each of the training examples. Plot the # of errors made for each epoch of learning on the y axis versus the epoch # of learning on the x axis.
+
+Based on your results, are any of the LPs linearly separable? If so, which one? 
+
+
+Task 3 (T3): Experiment with changing the initial model that the learner uses. 
+
+T3.1: Repeat T2, but with the initial weights set to all 1s. 
+T3.2: Repeat T2, but with the initial weights set to four different #s between 0 and 1. 
+T3.3: Repeat T3.2, but with a different set of random weights. 
+
+
+Task 4 (T4): Experiment with shuffling the order in which the data is presented to the learner. 
+
+T4.1: Shuffle the data in the iris.data file into a random order. Repeat T2 with this order of training data. 
+T4.2: Repeat T4.1, but with a new random shuffling of the training data order. 
+
+
+Task 5 (T5): Analyze results and create written report of findings.
+
+T5.1: Create written report, including main points and analysis of results from T2. Include answers to the T2 questions.
+T5.2: Create written report, including main points and analysis of results from T3. 
+T5.3: Create written report, including main points and analysis of results from T4. 
+
+
+Deliverables
+
+Make sure all deliverables are well organized and clearly labeled. 
+
+
+D1. All source code for your project. 
+
+D2. The "epoch stats file" containing epoch #, # of errors on training data for that epoch, and current weight vector for each of the three LPs for T2. The plot for each of the three LPs for T2. 
+
+D3. All the epoch stats files and all the plots from T3. 
+
+D4. All the epoch stats files and all the plots from T4. 
+
+D5. All the written reports from T5. 
+
+D6. A writeup addressing each of the following (if there is nothing for a category then make an explicit remark ("Nothing" or "None"): 
+(1) anything positive you enjoyed or learned from this assignment, 
+(2) anything negative you didn't like about this assignment, 
+(3) any parts of this assignment you found easy, 
+(4) any parts of this assignment you found challenging or couldn't get working correctly, 
+(5) how your team functioned, including details such as what each team member contributed, how the team communicated with each other, and how team software development & design was accomplished, and
+(6) any other remarks you want to make. 
+
+D7. A main README file in plain text documenting all of your submission, explaining what’s what and where it’s located. The README file must also document all build instructions and command-line execution instructions for your software. 
+
+Please submit your complete bundled submission as a single .tar.gz file. 
+

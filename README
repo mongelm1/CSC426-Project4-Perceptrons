@@ -1,0 +1,67 @@
+Project 4 Perceptrons README
+
+To compile and run the code for this submission, simply run the following command in terminal
+$ python main.py
+Ensure your Python version is 3.7.5 or later.
+
+Explanation of program:
+
+Perceptron.py:
+    - implements the perceptron as a class
+    - perceptron has member data called weights which holds the weights <w_0...w_n>
+    - also has member function o which takes inputs and calculates output 1 or -1
+
+main.py:
+    - implements function used to gather data from iris.data file
+    - implements and runs the perceptron training rule on the training data
+    - prints out the results of the learning algorithm
+    - learning constant is set below perceptron training rule function
+
+Review of Deliverable:
+
+D1 - Source Code
+    * main.py 
+    * Perceptron.py
+
+Running the main program will produce the following output files, meeting each deliverable requirement:
+
+D2 - Epoch stats files and plot files for Task 2:
+    * T2_stats.txt and T2_Iris-setosa.pdf
+    * T2_stats.txt and T2_Iris-versicolor.pdf
+    * T2_stats.txt and T2_Iris-virginica.pdf
+
+D3 - Epoch stats files and plot files for Task 3:
+    Task 3.1:
+        * T3.1_stats.txt and T3.1_Iris-setosa.pdf
+        * T3.1_stats.txt and T3.1_Iris-versicolor.pdf
+        * T3.1_stats.txt and T3.1_Iris-virginica.pdf
+    Task 3.2:
+        * T3.2_stats.txt and T3.2_Iris-setosa.pdf
+        * T3.2_stats.txt and T3.2_Iris-versicolor.pdf
+        * T3.2_stats.txt and T3.2_Iris-virginica.pdf
+    Task 3.3:
+        * T3.3_stats.txt and T3.3_Iris-setosa.pdf
+        * T3.3_stats.txt and T3.3_Iris-versicolor.pdf
+        * T3.3_stats.txt and T3.3_Iris-virginica.pdf
+
+D4 - Epoch stats files and plot files for Task 4:
+    Task 4.1:
+        * T4.1_stats.txt and T4.1_Iris-setosa.pdf
+        * T4.1_stats.txt and T4.1_Iris-versicolor.pdf
+        * T4.1_stats.txt and T4.1_Iris-virginica.pdf
+
+All the files ending in "_stats.txt" specify the task number they satisfy in the name of the file and contain the epoch #, # of errors on training data for that epoch, and current weight vector for each of the three LPs from the beginning of the algorithm to the end. 
+All the file ending in "_Iris-setosa.pdf", "_Iris-versicolor.pdf", and "_Iris-virginica.pdf" specify the task number they satisfy in the name of the file and contain the graphs showing the # of errors made for each epoch of learning on the y axis versus the epoch # of learning on the x axis for each of the respective flowers.
+
+The final deliverables,
+
+D5 - Write Ups
+    * T5.1.txt - answers task 2 question and analyses task 2 results
+    * T5.2.txt - analyses task 3 results
+    * T5.3.txt - analyses task 4 results
+
+D6 - Write up reflecting on project
+    * project_reflection.txt
+
+D7 - README file
+    * This file serves as the README

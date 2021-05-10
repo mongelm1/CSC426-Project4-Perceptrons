@@ -1,0 +1,11 @@
+5.3 Write Up
+
+The learning problems in task 4 appear to have been learned even more
+poorly by the perceptron than the task 3 experiments. My hypothesis is that this is
+because of the shuffling of the data. Where in task 2 the perceptron is
+able to learn all the positive examples consecutively and all the negative examples
+of the same class also consecutively, this probably helps the algorithm to 
+adjust the weights more accurately. However, when the data is shuffled the
+weights cannot keep being nudged in the same direction for multiple examples in a row,
+which results in the perceptron not learning the target as well because it
+cannot adjust the weights.
